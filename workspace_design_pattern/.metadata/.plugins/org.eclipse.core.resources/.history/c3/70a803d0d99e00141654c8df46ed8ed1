@@ -1,0 +1,17 @@
+package lesson1;
+
+public class BookShelf implements Aggregate{
+
+	private Book[] books;
+	private int last = 0;
+	public BookShelf(int maxsize);
+
+
+
+	@Override
+	public Iterator iterator() {
+		// TODO 自動生成されたメソッド・スタブ
+		return null;
+	}
+
+}
