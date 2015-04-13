@@ -1,6 +1,6 @@
 package bannter;
 
-public interface Print {
+public abstract class Print {
 
 	public abstract void printWeak();
 	public abstract void printStrong();
