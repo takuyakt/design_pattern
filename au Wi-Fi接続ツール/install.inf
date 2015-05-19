@@ -1,0 +1,43 @@
+[Group]
+au Wi-Fi接続ツール=au_WiFi_Connect.exe
+au Wi-Fi接続ツールの削除=install.exe,-u -p "%s"
+
+[Setup]
+ProgramName=au Wi-Fi接続ツール
+InstallPath=au Wi-Fi接続ツール
+RegUninstall=au Wi-Fi接続ツール
+MainProgram=au_WiFi_Connect.exe
+UnInstallerProgram=install.exe,-u -p "%s"
+DstNeedSpace=4189204
+ProgramFolder_Group=au Wi-Fi接続ツール
+IconOnDesktop0=au_WiFi_Connect.exe,au Wi-Fi接続ツール
+InstDispProgramMenu=0
+UnInstDispProgramMenu=0
+UnInstallIcon=uninstall.ico
+Startrtf=start.rtf
+StartTitle=利用規約
+StartDlgOK=承諾する
+StartDlgCancel=承諾しない
+RegCreateDirectory=Software\NetVision\NetChanger_au_WiFi_Connect\Install
+Publisher=株式会社 ネットビジョン
+Version=2.0.3.0
+RegService=auWifiConnectSvc=auWifiConnectSvc.exe
+
+[UnInstall]
+HCU0=Software\NetVision\NetChanger_au_WiFi_Connect
+
+[Source]
+au_Wifi_Connect.exe=1
+au_Wifi_Connect.chm=1
+install.inf=1
+install.exe=1
+uninstall.ico=1
+start.rtf=1
+libcurl.dll=1
+roaming.dll=1
+roaming2.dll=1
+roamingcfg.dat=1
+roamingpb.dat=1
+roaming_access_list.tsv=1
+msvcr71.dll=1
+auWifiConnectSvc.exe=1
